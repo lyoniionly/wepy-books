@@ -124,9 +124,9 @@ export default class EditInfo extends wepy.page {
             if (!(/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{4}$/.test(obj.idcard))) {
                 content += ' 身份证号'
             }
-            if (!(/^[_\.0-9a-z-]+@([0-9a-z][0-9a-z-]+\.){1,4}[a-z]{2,3}$/.test(obj.Email))) {
-                content += ' 邮箱'
-            }
+            // if (!(/^[_\.0-9a-z-]+@([0-9a-z][0-9a-z-]+\.){1,4}[a-z]{2,3}$/.test(obj.Email))) {
+            //     content += ' 邮箱'
+            // }
             if (content !== '') {
                 wx.showModal({
                     title: '提示',

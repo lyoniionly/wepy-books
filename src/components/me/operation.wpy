@@ -54,7 +54,7 @@
             <text class="text">完善资料</text>
         </view>
         <view class="item" @tap="gotoDongtai">
-            <image class="icon" src="../resources/icons/msg.png"></image>
+            <image class="icon" src="../../resources/icons/msg.png"></image>
             <text class="text">我的消息</text>
             <view class="mynum" wx:if="{{count > 0}}">
                 {{count}}
